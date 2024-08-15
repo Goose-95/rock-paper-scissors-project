@@ -17,3 +17,17 @@ function getComputerChoice (randomNumber) {
 }
 
 console.log (getComputerChoice(randomNumber))
+
+let humanChoice = prompt('rock, paper, or scissors?')
+
+function getHumanChoice (humanChoice) {
+    if (humanChoice == 'rock') {
+        return 'rock'
+    } else if (humanChoice == 'paper') {
+        return 'paper'
+    } else if (humanChoice == 'scissors') {
+        return 'scissors'
+    } else alert('Please chose only rock, paper, or scissors. Reload and try again. Game is case sensitive!')
+}
+
+console.log (getHumanChoice(humanChoice))
